@@ -1,6 +1,9 @@
 import {buildPage} from './build-page.js';
-import { buildIframe } from '../display-site.js';
 import { dropDown } from './drop-down.js';
+
+
+const displayContainer = document.getElementById("display-site-container");
+const gitSite = "https://sethakirafeldman.github.io/";
 
 const elMaker = (el, id, parent, txt)=> {
     console.log(parent);
@@ -40,7 +43,6 @@ const sites = [
 
 buildPage();
 dropDown();
-buildIframe();
 
-export {elMaker}
+export {displayContainer, elMaker, gitSite}
 export {sites}

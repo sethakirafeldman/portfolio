@@ -1,8 +1,8 @@
 import { sites } from "./src/index.js";
+import { displayContainer } from "./src/index.js";
 
  const buildIframe = (e) => {
-    const displayContainer = document.getElementById("display-site-container");
-    const gitSite = "https://sethakirafeldman.github.io/";
+
 
     if (document.getElementById("iframe") !== null) {
         console.log("iframe exists");
