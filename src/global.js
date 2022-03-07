@@ -26,7 +26,6 @@ const sites = [
         "url": "restaurant/",
         "value": "restaraunt",
         "description": "Demo page for a responsive restaraunt website. Bundled using Webpack and has some bootstrap for styling. Otherwise, built with HTML, CSS, and JS."
-
     },   
     {
         "name": "Tic Tac Toe",
