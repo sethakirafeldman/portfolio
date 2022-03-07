@@ -1,0 +1,43 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: auto; */
+}
+
+#header {
+    position: relative;
+    height:100px;
+    width: 100%;
+    background-color: teal;
+    border:solid;
+    border-width: 1px;
+    text-align: center;
+    color: whitesmoke;
+}
+.dropdown {
+    padding: 2%;
+}
+
+.dropdown-menu {
+    display: inline-block;
+    width: fit-content;
+    text-align: center;
+    font-size: large;
+    padding: 2%;
+}
+
+.dropdown-item {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: left;
+    font-size: large;
+    color: black;
+}
+
+#site-description {
+    text-align: center;
+    word-wrap: normal; 
+    max-width: 1000px;
+    border-style: solid;
+    border-width: 1px;
+}

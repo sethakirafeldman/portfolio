@@ -1,8 +1,9 @@
-import { sites } from "./src/index.js";
-import { displayContainer } from "./src/index.js";
+import { sites } from "./src/global.js";
+import { displayContainer } from "./src/global.js";
+import { gitSite } from "./src/global.js";
+import { siteDescription } from "./src/site-description.js";
 
- const buildIframe = (e) => {
-
+ const displaySite = (e) => {
 
     if (document.getElementById("iframe") !== null) {
         console.log("iframe exists");
@@ -17,10 +18,11 @@ import { displayContainer } from "./src/index.js";
             iframe.height = "1000";
             iframe.width = "1000";
             displayContainer.appendChild(iframe);
+
+            //set description
+            siteDescription(v);
         }
     });
 }
 
-// need to set default site. currently looking for change event from event listener.
-
-export {buildIframe};
+export {displaySite};
