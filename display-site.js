@@ -6,7 +6,6 @@ import { siteDescription } from "./src/site-description.js";
  const displaySite = (e) => {
 
     if (document.getElementById("iframe") !== null) {
-        console.log("iframe exists");
         document.getElementById("iframe").remove();
     }
 

@@ -13,13 +13,15 @@ const elMaker = (el, id, parent, txt)=> {
     appendTo.appendChild(newEl);
 };
 
-const introTxt = "Welcome to my portfolio. Here you will find some examples of my personal projects. These were built as part of <a href='theodinproject.com' target ='_blank'>The Odin Project</a> Foundations and Full Stack Javascript Courses. Select a site from the drop-down menu below to view."
+const introTxt = `Welcome to my portfolio. Here you will find some examples of my personal projects.
+ These were built as part of <a href='https://theodinproject.com' target ='_blank'>The Odin Project</a> Foundations and Full Stack Javascript Courses.
+  Select a site from the drop-down menu below to view. You can view this page's repository <a href='https://github.com/sethakirafeldman/portfolio-js' target ='_blank'>here</a>.`
 
 const sites = [
     {   "name": "Weather Getter",
         "url": "weatherAPI/homepage.html",
         "value": "weather",
-        "git": " Available on my <a href ='https://github.com/sethakirafeldman/weatherAPI' target='_blank'>GitHub</a>.",
+        "git": " The repository is available on my <a href ='https://github.com/sethakirafeldman/weatherAPI' target='_blank'>GitHub</a>.",
         "description": `This app makes calls to two separate APIs using Async Await, one to <a href ='https://openweathermap.org/' target='_blank'>Openweather</a>, and another <a href ='https://unsplash.com/developers' target='_blank'>Unsplash</a>. 
         It fetches weather data and a pseudorandom photo of the chosen city. 
         Written in HTML, CSS, and vanilla JS.`
@@ -28,14 +30,14 @@ const sites = [
         "name": "Restaurant Page",
         "url": "restaurant/",
         "value": "restaurant",
-        "git": " Available on my <a href ='https://github.com/sethakirafeldman/restaurant' target='_blank'>GitHub</a>.",
+        "git": " The repository is available on my <a href ='https://github.com/sethakirafeldman/restaurant' target='_blank'>GitHub</a>.",
         "description": `Demo page for a responsive restaraunt website. Bundled using Webpack and uses bootstrap for some styling. Otherwise, built with HTML, CSS, and JS.`
     },   
     {
         "name": "Tic Tac Toe",
         "url": "tictactoe/homepage.html",
         "value": "tictactoe",
-        "git": " Available on my <a href ='https://github.com/sethakirafeldman/tictactoe' target='_blank'>GitHub</a>.",
+        "git": " The repository is available on my <a href ='https://github.com/sethakirafeldman/tictactoe' target='_blank'>GitHub</a>.",
         "description": "Vanilla JS with a simple computer AI algorithm."
 
     },
@@ -43,8 +45,10 @@ const sites = [
         "name": "Etch A Sketch",
         "url": "etch/homepage.html",
         "value": "etch",
-        "git": " Available on my <a href ='https://github.com/sethakirafeldman/etch' target='_blank'>GitHub</a>.",
-        "description": "Vanilla JS. Early project using mostly pre-ECMA 5 syntax. Fixed scrollbar so that it can size the grid recently."   
+        "git": " The repository is available <a href ='https://github.com/sethakirafeldman/etch' target='_blank'>GitHub</a>.",
+        "description": `Vanilla JS. Early project using mostly pre-ECMA 5 syntax. 
+        Fixed scrollbar so that it can size the grid recently. 
+        As with a real Etch A Sketch, you must draw from whichever point you start in one continuous motion.`  
     }
 ];
 
