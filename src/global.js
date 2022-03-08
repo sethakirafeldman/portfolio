@@ -5,33 +5,37 @@ const descComp = document.getElementById("site-description");
 
 //pass in as strings
 const elMaker = (el, id, parent, txt)=> {
-    console.log(parent);
     let newEl = document.createElement(el);
     let appendTo = document.getElementById(parent);
     
     newEl.id = id;
-    newEl.innerText = txt;
+    newEl.innerHTML = txt;
     appendTo.appendChild(newEl);
 };
 
-const introTxt = "Welcome to my portfolio. Here you will find some examples of my work. Select a site from the drop-down menu below to view."
+const introTxt = "Welcome to my portfolio. Here you will find some examples of my personal projects. These were built as part of <a href='theodinproject.com' target ='_blank'>The Odin Project</a> Foundations and Full Stack Javascript Courses. Select a site from the drop-down menu below to view."
 
 const sites = [
     {   "name": "Weather Getter",
         "url": "weatherAPI/homepage.html",
         "value": "weather",
-        "description": "This app makes calls to two separate APIs using Async Await, one to Openweather (https://openweathermap.org/), and another Unsplash (https://unsplash.com/developers). It fetches weather data and a pseudorandom photo of the entered city. Written in HTML, CSS, and vanilla JS."
+        "git": " Available on my <a href ='https://github.com/sethakirafeldman/weatherAPI' target='_blank'>GitHub</a>.",
+        "description": `This app makes calls to two separate APIs using Async Await, one to <a href ='https://openweathermap.org/' target='_blank'>Openweather</a>, and another <a href ='https://unsplash.com/developers' target='_blank'>Unsplash</a>. 
+        It fetches weather data and a pseudorandom photo of the chosen city. 
+        Written in HTML, CSS, and vanilla JS.`
     },
     {
         "name": "Restaurant Page",
         "url": "restaurant/",
         "value": "restaurant",
-        "description": "Demo page for a responsive restaraunt website. Bundled using Webpack and has some bootstrap for styling. Otherwise, built with HTML, CSS, and JS."
+        "git": " Available on my <a href ='https://github.com/sethakirafeldman/restaurant' target='_blank'>GitHub</a>.",
+        "description": `Demo page for a responsive restaraunt website. Bundled using Webpack and uses bootstrap for some styling. Otherwise, built with HTML, CSS, and JS.`
     },   
     {
         "name": "Tic Tac Toe",
         "url": "tictactoe/homepage.html",
         "value": "tictactoe",
+        "git": " Available on my <a href ='https://github.com/sethakirafeldman/tictactoe' target='_blank'>GitHub</a>.",
         "description": "Vanilla JS with a simple computer AI algorithm."
 
     },
@@ -39,6 +43,7 @@ const sites = [
         "name": "Etch A Sketch",
         "url": "etch/homepage.html",
         "value": "etch",
+        "git": " Available on my <a href ='https://github.com/sethakirafeldman/etch' target='_blank'>GitHub</a>.",
         "description": "Vanilla JS. Early project using mostly pre-ECMA 5 syntax. Fixed scrollbar so that it can size the grid recently."   
     }
 ];
@@ -46,4 +51,4 @@ const sites = [
 
 
 
-export { displayContainer, elMaker, gitSite, descComp, sites, introTxt }
+export { displayContainer, elMaker, gitSite, descComp, sites, introTxt}

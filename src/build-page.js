@@ -1,11 +1,12 @@
 import { elMaker } from "./global.js";
-import { sites } from "./global";
-import { displayContainer } from "./global";
+import { sites } from "./global.js";
+import { displayContainer } from "./global.js";
 import { gitSite } from "./global";
 import { descComp } from "./global.js";
 import { introTxt } from "./global.js";
 
 const container = document.getElementById("container");
+console.log(introTxt);
 
 const buildPage = ()=> {
 
@@ -21,6 +22,6 @@ const buildPage = ()=> {
     displayContainer.appendChild(iframe);
 
     // default description
-    descComp.innerText = sites[0].description;
+    descComp.innerHTML = sites[0].description + sites[0].git;
 }
 export {buildPage};

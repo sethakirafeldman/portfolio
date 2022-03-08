@@ -2,16 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('/src/assets/bg.png');
-    
-    /* margin: auto; */
 }
 
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
-    /* background-color: #ebebeb; */
 }
+
 #header {
     display: flex;
     height:100px;
@@ -24,6 +21,10 @@ body {
     text-align: center;
     color: whitesmoke;
     font-family: Helvetica, sans-serif;
+}
+
+#intro {
+    max-width: 1000px;
 }
 .dropdown {
     padding: 2%;
@@ -48,7 +49,6 @@ body {
     text-align: center;
     word-wrap: normal; 
     max-width: 1000px;
-    /* border-style: solid; */
     border-width: 1px;
     padding-bottom: 1%;
 }
