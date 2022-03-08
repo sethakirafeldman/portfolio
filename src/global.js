@@ -14,6 +14,7 @@ const elMaker = (el, id, parent, txt)=> {
     appendTo.appendChild(newEl);
 };
 
+const introTxt = "Welcome to my portfolio. Here you will find some examples of my work. Select a site from the drop-down menu below to view."
 
 const sites = [
     {   "name": "Weather Getter",
@@ -22,9 +23,9 @@ const sites = [
         "description": "This app makes calls to two separate APIs using Async Await, one to Openweather (https://openweathermap.org/), and another Unsplash (https://unsplash.com/developers). It fetches weather data and a pseudorandom photo of the entered city. Written in HTML, CSS, and vanilla JS."
     },
     {
-        "name": "Restaraunt Page",
+        "name": "Restaurant Page",
         "url": "restaurant/",
-        "value": "restaraunt",
+        "value": "restaurant",
         "description": "Demo page for a responsive restaraunt website. Bundled using Webpack and has some bootstrap for styling. Otherwise, built with HTML, CSS, and JS."
     },   
     {
@@ -45,4 +46,4 @@ const sites = [
 
 
 
-export { displayContainer, elMaker, gitSite, descComp, sites }
+export { displayContainer, elMaker, gitSite, descComp, sites, introTxt }
