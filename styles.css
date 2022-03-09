@@ -41,3 +41,14 @@ body {
     border-width: 1px;
     padding-bottom: 1%;
 }
+
+#display-site-containrer {
+    overflow: hidden;
+}
+
+#iframe {
+    position: absolute;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
