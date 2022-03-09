@@ -19,8 +19,8 @@ const buildPage = ()=> {
     let iframe = document.createElement("iframe");
     iframe.src= gitSite + sites[0].url;
     iframe.id = "iframe";
-    iframe.height = "1000";
-    iframe.width = "1000";
+    // iframe.height = "1000";
+    // iframe.width = "1000";
     displayContainer.appendChild(iframe);
 
     // default description
