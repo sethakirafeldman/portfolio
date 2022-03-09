@@ -15,7 +15,7 @@ const elMaker = (el, id, parent, txt)=> {
 
 const introTxt = `Welcome to my portfolio. Here you will find some examples of my personal projects.
  These were built as part of <a href='https://theodinproject.com' target ='_blank'>The Odin Project</a> Foundations and Full Stack Javascript Courses.
-  Select a site from the drop-down menu below to view. You can view this page's repository <a href='https://github.com/sethakirafeldman/portfolio-js' target ='_blank'>here</a>.`
+  Select a site from the drop-down menu below to view. This was built and bundled using Webpack. You can view this page's repository <a href='https://github.com/sethakirafeldman/portfolio-js' target ='_blank'>here</a>.`
 
 const sites = [
     {   "name": "Weather Getter",

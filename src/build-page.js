@@ -2,10 +2,7 @@ import { elMaker } from "./global.js";
 import { sites } from "./global.js";
 import { displayContainer } from "./global.js";
 import { gitSite } from "./global";
-import { descComp } from "./global.js";
 import { introTxt } from "./global.js";
-
-const container = document.getElementById("container");
 
 const buildPage = ()=> {
 
@@ -14,13 +11,10 @@ const buildPage = ()=> {
     elMaker("h2", "name-text", "title", "Seth Akira Feldman");
     elMaker("h2", "title-text", "title", "Developer Portfolio");
  
-
     // default iframe
     let iframe = document.createElement("iframe");
     iframe.src= gitSite + sites[0].url;
     iframe.id = "iframe";
-    // iframe.height = "1000";
-    // iframe.width = "1000";
     displayContainer.appendChild(iframe);
 
     // default description

@@ -1,4 +1,3 @@
-import {descComp} from "./global.js";
 
 const siteDescription = (value) => {
     // on default set description

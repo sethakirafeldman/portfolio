@@ -19,9 +19,6 @@ import { siteDescription } from "./src/site-description.js";
 
             //set description
             siteDescription(v);
-
-            // iframe.height = "1000";
-            // iframe.width = "1000";
         }
     });
 }
