@@ -24,7 +24,7 @@ const sites = [
         "git": " The repository is available on my <a href ='https://github.com/sethakirafeldman/weatherAPI' target='_blank'>GitHub</a>.",
         "description": `This app makes calls to two separate APIs using Async Await, one to <a href ='https://openweathermap.org/' target='_blank'>Openweather</a>, and another <a href ='https://unsplash.com/developers' target='_blank'>Unsplash</a>. 
         It fetches weather data and a pseudorandom photo of the chosen city. 
-        Written in HTML, CSS, and vanilla JS.`
+        Written in HTML, CSS, and vanilla JS. Unsplash limits hourly API calls to 50, if you notice the image is not changing, then this limit has likely been reached.`
     },
     {
         "name": "Restaurant Page",

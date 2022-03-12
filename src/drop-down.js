@@ -1,4 +1,4 @@
-import { displaySite } from "../display-site.js";
+import { displaySite } from "./display-site";
 import { elMaker } from "./global.js";
 import { sites } from "./global.js";
 

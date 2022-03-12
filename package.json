@@ -106,14 +106,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sethakirafeldman/portfolio-js.git"
+    "url": "git+https://github.com/sethakirafeldman/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sethakirafeldman/portfolio-js/issues"
+    "url": "https://github.com/sethakirafeldman/portfolio/issues"
   },
-  "homepage": "https://github.com/sethakirafeldman/portfolio-js#readme",
+  "homepage": "https://github.com/sethakirafeldman/portfolio#readme",
   "description": ""
 }

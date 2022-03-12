@@ -1,7 +1,7 @@
-import { sites } from "./src/global.js";
-import { displayContainer } from "./src/global.js";
-import { gitSite } from "./src/global.js";
-import { siteDescription } from "./src/site-description.js";
+import { sites } from "./global.js";
+import { displayContainer } from "./global.js";
+import { gitSite } from "./global.js";
+import { siteDescription } from "./site-description.js";
 
  const displaySite = (e) => {
 
