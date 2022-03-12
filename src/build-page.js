@@ -4,6 +4,12 @@ import { displayContainer } from "./global.js";
 import { gitSite } from "./global";
 import { introTxt } from "./global.js";
 
+import gitLogo from "./assets/GitHub-Mark-64px.png"
+
+const gitIcon = new Image();
+gitIcon.src = gitLogo;
+gitIcon.style.width = "1rem"
+
 const buildPage = ()=> {
 
     elMaker("p", "intro-text","intro", introTxt);
@@ -21,5 +27,6 @@ const buildPage = ()=> {
     elMaker("h4", "description-heading", "about-site", "About this Project");
     elMaker("div", "desc-text", "about-site", "");
     document.getElementById("desc-text").innerHTML = sites[0].description + sites[0].git;
+    // document.getElementById("desc-text").appendChild(gitIcon);
 }
 export {buildPage};

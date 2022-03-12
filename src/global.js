@@ -1,4 +1,3 @@
-
 const displayContainer = document.getElementById("display-site-container");
 const gitSite = "https://sethakirafeldman.github.io/";
 const descComp = document.getElementById("site-description");
@@ -15,7 +14,7 @@ const elMaker = (el, id, parent, txt)=> {
 
 const introTxt = `Welcome to my portfolio. Here you will find some examples of my personal projects.
  These were built as part of <a href='https://theodinproject.com' target ='_blank'>The Odin Project</a> Foundations and Full Stack Javascript Courses.
-  Select a site from the drop-down menu below to view. This page was built with vanilla JS and bundled using Webpack. You can view this page's repository <a href='https://github.com/sethakirafeldman/portfolio-js' target ='_blank'>here</a>.`
+  Select a site from the drop-down menu below to view. This page was built with vanilla JS and bundled using Webpack. You can view this page's repository <a href='https://github.com/sethakirafeldman/portfolio' target ='_blank'>here</a>.`
 
 const sites = [
     {   "name": "Weather Getter",
@@ -31,7 +30,7 @@ const sites = [
         "url": "restaurant/",
         "value": "restaurant",
         "git": " The repository is available on my <a href ='https://github.com/sethakirafeldman/restaurant' target='_blank'>GitHub</a>.",
-        "description": `Demo page for a responsive restaraunt website. Bundled using Webpack and uses bootstrap for some styling. Otherwise, built with HTML, CSS, and JS.`
+        "description": `Demo page for a responsive restaurant website. Bundled using Webpack and uses bootstrap for some styling. Otherwise, built with HTML, CSS, and JS.`
     },   
     {
         "name": "Tic Tac Toe",
