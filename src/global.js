@@ -20,7 +20,7 @@ const sites = [
     {   "name": "Weather Getter",
         "url": "weatherAPI/homepage.html",
         "value": "weather",
-        "git": " The repository is available on my <a href ='https://github.com/sethakirafeldman/weatherAPI' target='_blank'>GitHub</a>.",
+        "git": `weatherAPI`,
         "description": `This app makes calls to two separate APIs using Async Await, one to <a href ='https://openweathermap.org/' target='_blank'>Openweather</a>, and another <a href ='https://unsplash.com/developers' target='_blank'>Unsplash</a>. 
         It fetches weather data and a pseudorandom photo of the chosen city. 
         Written in HTML, CSS, and vanilla JS. Unsplash limits hourly API calls to 50, if you notice the image is not changing, then this limit has likely been reached.`
@@ -29,14 +29,14 @@ const sites = [
         "name": "Restaurant Page",
         "url": "restaurant/",
         "value": "restaurant",
-        "git": " The repository is available on my <a href ='https://github.com/sethakirafeldman/restaurant' target='_blank'>GitHub</a>.",
+        "git": `restaurant`,
         "description": `Demo page for a responsive restaurant website. Bundled using Webpack and uses bootstrap for some styling. Otherwise, built with HTML, CSS, and JS.`
     },   
     {
         "name": "Tic Tac Toe",
         "url": "tictactoe/homepage.html",
         "value": "tictactoe",
-        "git": " The repository is available on my <a href ='https://github.com/sethakirafeldman/tictactoe' target='_blank'>GitHub</a>.",
+        "git": `tictactoe`,
         "description": "Vanilla JS with a simple computer AI algorithm."
 
     },
@@ -44,7 +44,7 @@ const sites = [
         "name": "Etch A Sketch",
         "url": "etch/homepage.html",
         "value": "etch",
-        "git": " The repository is available <a href ='https://github.com/sethakirafeldman/etch' target='_blank'>GitHub</a>.",
+        "git": `etch`,
         "description": `Vanilla JS. Early project using mostly pre-ECMA 5 syntax. 
         Fixed scrollbar so that it can size the grid recently. 
         As with a real Etch A Sketch, you must draw from whichever point you start in one continuous motion.`  
